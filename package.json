@@ -1,0 +1,17 @@
+{
+  "name": "20201029-slides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "fusuma start",
+    "build": "fusuma build",
+    "pdf": "fusuma pdf",
+    "live": "fusuma live -w '@nodejs'",
+    "deploy": "fusuma deploy"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "fusuma": "^1.16.0"
+  }
+}
